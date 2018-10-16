@@ -23,7 +23,7 @@ import (
 func NewRootCmd() *cobra.Command {
 	cmd := &cobra.Command{
 		Use:     "operator-sdk",
-		Short:   "A sdk for building operator with ease",
+		Short:   "A sdk for building operators with ease",
 		Version: version.Version,
 	}
 
